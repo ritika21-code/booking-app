@@ -11,7 +11,7 @@ import Myplacespage from "./pages/Myplacespage";
 import Eachplace from "./pages/Eachplace";
 import Bookings from "./pages/Bookings";
 import Mybookings from "./pages/Mybookings";
-axios.defaults.baseURL='http://localhost:4000'
+axios.defaults.baseURL='http://booking.onrender.com'
 axios.defaults.withCredentials= true;
 function App() {
   return (

@@ -32,7 +32,7 @@ function getUserDataFromReq(req) {
   });
 }
 
-mongoose.connect('mongodb+srv://ritikasinghal2101:ritika21@cluster0.olekecq.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect(process.env.MONGO_URL)
 app.use(cookieParser());
 
 app.get('/test',(req,res)=>
