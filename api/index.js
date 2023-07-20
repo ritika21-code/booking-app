@@ -18,7 +18,7 @@ const jwtsecret="bhbbhbhbh";
 app.use(express.json())
 app.use(cors(
   {
-    origin: ("https://deploy-mern-1wha.vercel.app"),
+    origin: ("https://booking-front-end.onrender.com/"),
     methods:["POST","GET"],
     credentials:true,
    
